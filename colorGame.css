@@ -29,3 +29,7 @@ h1
     color:black;
 
 }
+.selected
+{
+    background: blue;
+}
