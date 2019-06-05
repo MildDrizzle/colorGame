@@ -20,7 +20,12 @@ h1
     color:white;
 }
 
-span
+
+#stripe
 {
-    color:white;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color:black;
+
 }
