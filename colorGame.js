@@ -42,7 +42,8 @@ hardBtn.addEventListener("click", function()
     for(var i=0; i<squares.length; i++)
     {
             squares[i].style.backgroundColor = colors[i];
-            squares[i].style.display="block";   
+            squares[i].style.display="block"; 
+              
     }
 })
 
@@ -55,13 +56,16 @@ colors = generateRandomColors(numOfSquares);
 pickedColor = pickColor();
 // change colorDisplay to match picked color
 colorDisplay.textContent = pickedColor;
+this.textContent = "NEW COLORS";
+
 //change colors of squares
 
 for(var i=0; i<squares.length; i++)
 {
     squares[i].style.backgroundColor=colors[i];
 }
-h1.style.backgroundColor="#232323";
+h1.style.backgroundColor="steelblue";
+messageDisplay.textContent = "";
 })
 
 colorDisplay.textContent = pickedColor;
